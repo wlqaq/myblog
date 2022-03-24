@@ -2,4 +2,7 @@ module github.com/wlqaq/myblog
 
 go 1.16
 
-require rsc.io/quote/v3 v3.1.0 // indirect
+require (
+	github.com/gin-gonic/gin v1.7.7
+	github.com/jinzhu/gorm v1.9.16
+)
